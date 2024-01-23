@@ -78,3 +78,10 @@ p.copyright {
   background-color: #19143a;
   border: #19143a;
 }
+
+.searchbar, #global-menu{
+	display: flex;
+    justify-content: flex-start;
+	list-style-type: none;
+}
+
