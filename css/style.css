@@ -64,19 +64,11 @@ p.copyright {
 	}
 }
 
-.fd-carousel img{
-    border-radius: 10px;
-    width: 50%;
-  }
-
-.circle{
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  font-size: 20px;
-  color: white;
-  background-color: #19143a;
-  border: #19143a;
+section.subSection
+{
+  background-color: #22262a;
+  padding: 2rem;
+  margin-top: 3rem;
 }
 
 .searchbar, #global-menu{
@@ -87,7 +79,7 @@ p.copyright {
 
 .image-container img{
 	width: 132px;
-  height: 191px;
+  height: 195px;
 }
 
 .headline{
@@ -96,10 +88,12 @@ p.copyright {
   font-weight: 600;
   letter-spacing: -.005em;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-transform: uppercase;
 }
 
 .text5 h5{
 	font-size: 16px;
+    font-family: sans-serif;
 }
 
 .hyperlink a{
@@ -156,6 +150,7 @@ p.copyright {
 	position: relative;
     right: 64px;
     bottom: 20px;
+    width: 640px;
 }
 
 .showtimes-btn-list{
@@ -198,4 +193,64 @@ p.copyright {
 	font-family: alternate-gothic-no-1-d,'Futura Condensed','Arial Narrow',Arial,sans-serif;
     text-transform: uppercase;
     font-size: 18px;
+}
+
+.amenity{
+	position: relative;
+    bottom: 45px;
+    list-style-type: none;
+    display: flex;
+    left: -40px;
+}
+
+.hyperlink h5{
+    position: relative;
+    bottom: 24px;
+    font-size: 16px;
+}
+
+.showtime{
+    list-style-type: none;
+}
+
+.hyperlink{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.long-section{
+    width: 900px;
+}
+
+.align-left{
+    position: relative;
+    right: 115px;
+}
+
+.align-left h3{
+    text-transform: uppercase;
+}
+
+.personalize{
+    background-color: #b8af29;
+}
+
+.perSection{
+    background-color: #6a6c59;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.perLine{
+    text-transform: uppercase;
+}
+
+.perButton button{
+    background-color: #ff0055;
+}
+
+.cyperlink a{
+    color: #00ffaf !important;
 }
