@@ -85,7 +85,7 @@ p.copyright {
 	list-style-type: none;
 }
 
-.image-container{
+.image-container img{
 	width: 132px;
   height: 191px;
 }
@@ -98,3 +98,104 @@ p.copyright {
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+.text5 h5{
+	font-size: 16px;
+}
+
+.hyperlink a{
+	color: #3185e0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hyperlink a:hover{
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+.button button{
+	background-color: #FF7300;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    -webkit-transition: background-color .3s,color .3s;
+    -moz-transition: background-color .3s,color .3s;
+    -ms-transition: background-color .3s,color .3s;
+    transition: background-color .3s,color .3s;
+    vertical-align: middle;
+	width: 78px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-transform: initial;
+	font-weight: bold;
+}
+
+.movie-component{
+	display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.fd-movie__details{
+	margin-right: 60px;
+}
+
+.hyperlink ul{
+	list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.amenities{
+	position: relative;
+    right: 64px;
+    bottom: 20px;
+}
+
+.showtimes-btn-list{
+	list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    position: relative;
+    right: 55px;
+}
+
+.movie-listing{
+	width: 900px;
+    height: 195px;
+    border: 2px solid #8f8b8b;
+    border-radius: 5px;
+	display: flex;
+}
+
+.image-container{
+	width: 430px;
+    display: flex;
+}
+
+.image-container ul{
+	list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	padding: 0;
+    padding-left: 12px;
+    padding-bottom: 50px;
+}
+
+.image-container p{
+	font-size: 13px;
+}
+
+.image-container h3{
+	font-family: alternate-gothic-no-1-d,'Futura Condensed','Arial Narrow',Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
