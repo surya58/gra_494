@@ -95,6 +95,23 @@ input[type="text"] {
 
 }
 
+@media screen and (max-width:1200px) {
+  .trailers{
+    height: 90rem !important;
+  }
+  .float{
+    display: none !important;
+  }
+  .img-content div{
+    position: relative;
+    bottom: 195px;
+  }
+  .img-content{
+    height: 54rem !important;
+  }
+
+}
+
 @media screen and (max-width:1040px) {
   .menu i{
     display: block;
@@ -108,6 +125,9 @@ input[type="text"] {
 @media screen and (max-width:600px) {
   .search {
     display: none !important;
+  }
+  .img-content{
+    height: 90rem !important;
   }
 }
 
