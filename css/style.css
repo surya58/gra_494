@@ -233,11 +233,11 @@ section.subSection
 }
 
 .personalize{
-    background-color: #b6b5a2;
+    background-color: #272525;
 }
 
 .perSection{
-    background-color: #272525;
+    background-color: #474141;
     padding: 2rem;
     margin-top: 3rem;
     border-radius: 10px;
@@ -252,7 +252,7 @@ section.subSection
 }
 
 .cyperlink a{
-    color: #00ffaf !important;
+    color: #1c85f4 !important;
 }
 
 .fandango{
